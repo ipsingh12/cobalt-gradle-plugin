@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.ipsingh12</groupId>
+  <artifactId>cobalt-gradle-plugin</artifactId>
+  <version>1.0.1</version>
+  <name>My Library</name>
+  <description>A concise description of my library</description>
+  <url>http://www.example.com/library</url>
+  <licenses>
+    <license>
+      <name>The Apache License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>johnd</id>
+      <name>John Doe</name>
+      <email>john.doe@example.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:git://example.com/my-library.git</connection>
+    <developerConnection>scm:git:ssh://example.com/my-library.git</developerConnection>
+    <url>http://example.com/my-library/</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>commons-io</groupId>
+      <artifactId>commons-io</artifactId>
+      <version>1.3.2</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.codehaus.groovy.modules.http-builder</groupId>
+      <artifactId>http-builder</artifactId>
+      <version>0.7.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.apache.httpcomponents</groupId>
+      <artifactId>httpclient</artifactId>
+      <version>4.2.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.apache.httpcomponents</groupId>
+      <artifactId>httpmime</artifactId>
+      <version>4.3.3</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>io.codearte.gradle.nexus</groupId>
+      <artifactId>gradle-nexus-staging-plugin</artifactId>
+      <version>0.12.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>
